@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focusly Lite — Фокусуйся на головному</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайту -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Focusly<span>Lite</span></a>
+            <button class="menu-toggle" aria-label="Відкрити меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <a href="#about" class="nav-link">Про сервіс</a>
+                <a href="#benefits" class="nav-link">Переваги</a>
+                <a href="#contacts" class="nav-link">Контакти</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Головний блок -->
+        <section id="about" class="hero">
+            <div class="container hero-content">
+                <p class="hero-tag">✨ Новий спосіб концентрації</p>
+                <h1 class="hero-title">Фокусуйся на <span>головному</span></h1>
+                <p class="hero-description">
+                    Focusly Lite — простий та ефективний інструмент, який допоможе тобі 
+                    зосередитись на важливому та досягти більшого за менший час.
+                </p>
+                <a href="#" class="btn btn-primary">Почати →</a>
+            </div>
+        </section>
+        <!-- Блок Переваги -->
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <h2 class="section-title">Чому обирають Focusly Lite</h2>
+                <p class="section-subtitle">Три простих причини, чому наш сервіс стане твоїм надійним помічником</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🧠</div>
+                        <h3>Допомагає зосередитись</h3>
+                        <p>Усуває відволікаючі фактори та створює ідеальне середовище для глибокої роботи.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Простий у використанні</h3>
+                        <p>Інтуїтивний інтерфейс без зайвих налаштувань — просто відкрий і працюй.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🌐</div>
+                        <h3>Працює в браузері</h3>
+                        <p>Не потрібно нічого встановлювати — доступний з будь-якого пристрою онлайн.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Контакти -->
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts-content">
+                    <p class="contacts-tag">📧 Зв'яжіться з нами</p>
+                    <h2 class="section-title">Маєте запитання?</h2>
+                    <p class="section-subtitle">Напишіть нам, і ми відповімо якнайшвидше!</p>
+                    
+<form class="contact-form" id="contactForm" action="https://formspree.io/f/mwvqdonq" method="POST">
+  <div class="form-row">
+    <input type="text" name="name" placeholder="Ваше ім'я" required>
+    <input type="email" name="email" placeholder="Email" required>
+  </div>
+
+  <input type="text" name="subject" placeholder="Тема повідомлення">
+  <textarea name="message" placeholder="Ваше повідомлення..." rows="4" required></textarea>
+
+  <button type="submit" class="btn btn-primary">Надіслати ✉️</button>
+</form>
+
+<p id="formStatus"></p>
+                    
+                    <p class="contact-email">
+                        Або напишіть напряму: <a href="mailto:hello@focusly-lite.com">hello@focusly-lite.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Підвал сайту -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#" class="logo">Focusly<span>Lite</span></a>
+            <p class="copyright">© 2025 Focusly Lite. Усі права захищено.</p>
+            <nav class="footer-nav">
+                <a href="#about">Про сервіс</a>
+                <a href="#benefits">Переваги</a>
+                <a href="#contacts">Контакти</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
