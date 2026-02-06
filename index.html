@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focusly Lite — Фокусуйся на головному</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];
+    w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P558V9MZ');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P558V9MZ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Шапка сайту -->
     <header class="header">
         <div class="container header-content">
@@ -23,6 +45,7 @@
             </nav>
         </div>
     </header>
+
     <main>
         <!-- Головний блок -->
         <section id="about" class="hero">
@@ -36,23 +59,28 @@
                 <a href="#" class="btn btn-primary">Почати →</a>
             </div>
         </section>
+
         <!-- Блок Переваги -->
         <section id="benefits" class="benefits">
             <div class="container">
                 <h2 class="section-title">Чому обирають Focusly Lite</h2>
-                <p class="section-subtitle">Три простих причини, чому наш сервіс стане твоїм надійним помічником</p>
-                
+                <p class="section-subtitle">
+                    Три простих причини, чому наш сервіс стане твоїм надійним помічником
+                </p>
+
                 <div class="benefits-grid">
                     <div class="benefit-card">
                         <div class="benefit-icon">🧠</div>
                         <h3>Допомагає зосередитись</h3>
                         <p>Усуває відволікаючі фактори та створює ідеальне середовище для глибокої роботи.</p>
                     </div>
+
                     <div class="benefit-card">
                         <div class="benefit-icon">⚡</div>
                         <h3>Простий у використанні</h3>
                         <p>Інтуїтивний інтерфейс без зайвих налаштувань — просто відкрий і працюй.</p>
                     </div>
+
                     <div class="benefit-card">
                         <div class="benefit-icon">🌐</div>
                         <h3>Працює в браузері</h3>
@@ -61,40 +89,56 @@
                 </div>
             </div>
         </section>
+
         <!-- Контакти -->
         <section id="contacts" class="contacts">
             <div class="container">
                 <div class="contacts-content">
                     <p class="contacts-tag">📧 Зв'яжіться з нами</p>
                     <h2 class="section-title">Маєте запитання?</h2>
-                    <p class="section-subtitle">Напишіть нам, і ми відповімо якнайшвидше!</p>
-                    
-<form class="contact-form" id="contactForm" action="https://formspree.io/f/mwvqdonq" method="POST">
-  <div class="form-row">
-    <input type="text" name="name" placeholder="Ваше ім'я" required>
-    <input type="email" name="email" placeholder="Email" required>
-  </div>
+                    <p class="section-subtitle">
+                        Напишіть нам, і ми відповімо якнайшвидше!
+                    </p>
 
-  <input type="text" name="subject" placeholder="Тема повідомлення">
-  <textarea name="message" placeholder="Ваше повідомлення..." rows="4" required></textarea>
+                    <form class="contact-form"
+                          id="contactForm"
+                          action="https://formspree.io/f/mwvqdonq"
+                          method="POST">
 
-  <button type="submit" class="btn btn-primary">Надіслати ✉️</button>
-</form>
+                        <div class="form-row">
+                            <input type="text" name="name" placeholder="Ваше ім'я" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
 
-<p id="formStatus"></p>
-                    
+                        <input type="text" name="subject" placeholder="Тема повідомлення">
+                        <textarea name="message"
+                                  placeholder="Ваше повідомлення..."
+                                  rows="4"
+                                  required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Надіслати ✉️
+                        </button>
+                    </form>
+
+                    <p id="formStatus"></p>
+
                     <p class="contact-email">
-                        Або напишіть напряму: <a href="mailto:hello@focusly-lite.com">hello@focusly-lite.com</a>
+                        Або напишіть напряму:
+                        <a href="mailto:hello@focusly-lite.com">hello@focusly-lite.com</a>
                     </p>
                 </div>
             </div>
         </section>
     </main>
-    <!-- Підвал сайту -->
+
+    <!-- Підвал -->
     <footer class="footer">
         <div class="container footer-content">
             <a href="#" class="logo">Focusly<span>Lite</span></a>
-            <p class="copyright">© 2025 Focusly Lite. Усі права захищено.</p>
+            <p class="copyright">
+                © 2025 Focusly Lite. Усі права захищено.
+            </p>
             <nav class="footer-nav">
                 <a href="#about">Про сервіс</a>
                 <a href="#benefits">Переваги</a>
@@ -102,6 +146,7 @@
             </nav>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
